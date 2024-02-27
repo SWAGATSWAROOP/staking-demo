@@ -40,9 +40,9 @@ module.exports = {
   gasReporter: {
     enabled: true,
     currency: "INR",
-    coinmarketcap: process.env.COINMARKETCAP,
-    token: "matic",
-    outputFile: "gasReports.txt",
+    coinmarketcap: "0e5feebf-eac3-48d3-9df8-ec120035dba9",
+    // token: "matic",
+    outputFile: "gasReports2.txt",
     noColors: true,
   },
 };
